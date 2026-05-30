@@ -1,0 +1,5 @@
+from eth_hash.auto import keccak
+
+empty_hash = keccak(b"").hex()
+
+print(f"0x{empty_hash}")
