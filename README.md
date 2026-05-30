@@ -136,3 +136,26 @@ Hashes Match?  False
 Empty String Verification
 ![Keccak-256 Output](<Screenshots/Part B empty str.png>)
 
+## Learning Outcome
+I've learnt that hashing is unidirection i.e, is absolutely impossible to convert a hash back into its original text. 
+Also hashing is deterministic i.e the same input will always generate the same output. 
+
+I've also researched on how the SHA-256 algorithm works. 
+
+I've also learnt about the avalanche effect. 
+
+## Part C
+### What is the avalanche effect? Give one example from your output
+Avalanche effect means a tiny change to the input (like changing even one character), produces a drastic change in the hash to the point that it seems completely unrelated to the original hash. 
+
+In my example of hashing the string: 
+
+"PRODUCT:1001|BATCH:29|OWNER:0x981B34766E1D8E7D17e1bDE1Db9C9FEEFF1F232B" and
+
+"PRODUCT:1002|BATCH:29|OWNER:0x981B34766E1D8E7D17e1bDE1Db9C9FEEFF1F232B" produced 
+
+0x6174e859f01f4976e37f1609b24c1866d7e73b8ebea499985b1159aad3763437 and 
+
+Modified Hash: 0x40ae84f812363d8886b631305b2c3a9bfd4fdd839cff3115defac23cca0f7e73
+
+respectively, even though there's only a change of a single digit. 
