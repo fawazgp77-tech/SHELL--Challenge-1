@@ -118,3 +118,17 @@ Output
 Modified Hash: 0x6692289cda80cd60715097b0f7ddadb05bfa13fc9494aee8ab494244d5d85217
 Hashes Match?  False
 ```
+## Outputs
+### Part A
+![Keccak-256 Output](screenshots/your_screenshot_name.png)
+
+![Keccak-256 Output](screenshots/your_screenshot_name.png)
+
+![Keccak-256 Output](screenshots/your_screenshot_name.png)
+
+### Part B
+![Keccak-256 Output](screenshots/your_screenshot_name.png)
+
+![Keccak-256 Output](screenshots/your_screenshot_name.png)
+
+![Keccak-256 Output](screenshots/your_screenshot_name.png)
