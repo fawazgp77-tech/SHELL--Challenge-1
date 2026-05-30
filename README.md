@@ -132,3 +132,7 @@ Hashes Match?  False
 ![Keccak-256 Output](<Screenshots/Part B, ss-2.png>)
 
 ![Keccak-256 Output](<Screenshots/Part B, ss-3.png>)
+
+Empty String Verification
+![Keccak-256 Output](<Screenshots/Part B empty str.png>)
+
