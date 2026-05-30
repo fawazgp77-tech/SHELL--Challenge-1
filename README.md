@@ -120,7 +120,7 @@ Hashes Match?  False
 ```
 ## Outputs
 ### Part A
-![Keccak-256 Output](screenshots/your_screenshot_name.png)
+![Keccak-256 Output](Screenshots/Part A ss-1.png)
 
 ![Keccak-256 Output](screenshots/your_screenshot_name.png)
 
