@@ -63,7 +63,7 @@ Modified Hash: 0x40ae84f812363d8886b631305b2c3a9bfd4fdd839cff3115defac23cca0f7e7
 Hashes Match?  False
 ```
 
-### Part A
+### Part B
 #### 1. Import the eth-hash library
 ```python
 from eth_hash.auto import keccak
@@ -72,7 +72,7 @@ from eth_hash.auto import keccak
 ```python
 serial = input("Enter Product Serial Number: ").strip()
 batch  = input("Enter Batch ID: ").strip()
-owner  = input("Enter Owner Ethereum Address: ").strip()
+owner  = input("Enter Owner Address: ").strip()
 
 original_str = f"PRODUCT:{serial}|BATCH:{batch}|OWNER:{owner}"
 print(f"Original String: '{original_str}'")
