@@ -159,3 +159,11 @@ In my example of hashing the string:
 Modified Hash: 0x40ae84f812363d8886b631305b2c3a9bfd4fdd839cff3115defac23cca0f7e73
 
 respectively, even though there's only a change of a single digit. 
+### BlockVerify, the QR salt is generated as:
+```
+keccak256(abi.encodePacked(id, block.timestamp, msg.sender, blockhash(block.number - 1)))
+```
+### Why are four inputs combined instead of just using block.timestamp alone?
+Four inputs are combined to create uniqueness, unpredictibility and to make it more secure. If only block.timestamp was used, several items with same timestamp would have the same hash and there would be a collision. Hence it's neccessary to combine the four inputs to make it unique. Also combining blockhash adds unpredictibility.
+### If an attacker photographs a QR code and tries to reuse it 10 minutes later after an ownership transfer, what happens? Why does the salt rotation prevent this?
+If that happens, then the scan will fail. Since an ownership transfer had occured, salt rotation will completely change the code (using avalanche effect) and the old QR code will no longer work. 
