@@ -91,7 +91,7 @@ print(f"Original Hash: 0x{keccak_orig}")
 ```
 Output
 ```
-Original Hash: 0x5a18a992686035f29f04bbdb66355fa919c00c25d80bfca89e2264c18c1e87d0
+Original Hash: 0xb478295b673ba353cb44786e9404a352c35b7139b183bea8e524c4b8c11ab947
 ```
 #### 4. Change the original string
 ```python
@@ -115,6 +115,6 @@ print(f"Hashes Match?  {keccak_orig == keccak_mod}")
 ```
 Output
 ```
-Modified Hash: 0x50f9687e35b7190d643fe7f7bfec4dfd827299f1fa1aa0a01497a9cf186bc799
+Modified Hash: 0x6692289cda80cd60715097b0f7ddadb05bfa13fc9494aee8ab494244d5d85217
 Hashes Match?  False
 ```
