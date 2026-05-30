@@ -13,7 +13,7 @@ import hashlib
 ```
 #### 2. Take input and construct the original identity string
 ```python
-serial = input("Enter Product Serial Number: ").strip()
+serial = int(input("Enter Product Serial Number (numeric): "))
 batch  = input("Enter Batch ID: ").strip()
 owner  = input("Enter Owner Ethereum Address: ").strip()
 
@@ -70,7 +70,7 @@ from eth_hash.auto import keccak
 ```
 #### 2. Take input and construct the original identity string
 ```python
-serial = input("Enter Product Serial Number: ").strip()
+serial = int(input("Enter Product Serial Number (numeric): "))
 batch  = input("Enter Batch ID: ").strip()
 owner  = input("Enter Owner Address: ").strip()
 
